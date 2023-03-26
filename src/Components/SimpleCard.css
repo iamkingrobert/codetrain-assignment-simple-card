@@ -1,0 +1,48 @@
+.card__body{
+    display: flex;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 3px;
+}
+
+.title__container{
+    margin-top: 8px;
+}
+
+.title__container > h1{
+    font-size: 20px;
+    color: rgb(5, 4, 34);
+}
+
+.img__container{
+    margin-right: 10px;
+}
+
+.img__style{
+    height: 100%;
+    width: 100%;
+}
+
+.description__container{
+    margin-top: 5px;
+    width: 280px;
+}
+
+.description__container > p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.stack__title, .address{
+    margin-top: 10px;
+}
+
+.stack__title > h2{
+    font-size: 14px;
+}
+
+.address > p{
+    font-size: 13px;
+}
